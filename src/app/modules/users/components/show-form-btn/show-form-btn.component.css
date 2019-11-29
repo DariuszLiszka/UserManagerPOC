@@ -1,0 +1,16 @@
+.show-form-btn {
+  border-radius: 5px;
+  border: 0;
+  background: #343050;
+  padding: 8px;
+  color: white;
+  margin: 6px 2px;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.show-form-btn:hover {
+  background: #3498db;
+}

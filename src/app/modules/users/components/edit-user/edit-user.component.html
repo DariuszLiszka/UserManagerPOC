@@ -1,0 +1,38 @@
+<form class="edit-user-form" (ngSubmit)="onSubmit()">
+  <label>name</label>
+  <input
+    id="full-name"
+    type="text"
+    name="name"
+    [(ngModel)]="user.name"
+    [placeholder]="user.name"
+  />
+  <label>email</label>
+  <input
+    id="email"
+    type="text"
+    name="email"
+    [(ngModel)]="user.email"
+    [placeholder]="user.email"
+  />
+  <label>phone number</label>
+  <input
+    id="phone-number"
+    type="text"
+    name="phone"
+    [(ngModel)]="user.phone"
+    [placeholder]="user.phone"
+  />
+  <label>address</label>
+  <textarea
+    id="address"
+    [placeholder]="string"
+    type="text"
+    name="address"
+    [(ngModel)]="user.address.street"
+  ></textarea>
+  <div class="buttons-area">
+    <input type="submit" value="submit" class=" btn submit-btn" />
+    <app-back-home-btn></app-back-home-btn>
+  </div>
+</form>

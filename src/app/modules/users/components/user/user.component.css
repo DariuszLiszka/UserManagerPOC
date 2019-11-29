@@ -1,0 +1,71 @@
+.user-container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  flex: 2;
+  padding: 8px;
+  margin: 6px 2px;
+  font-size: 18px;
+}
+#user-name {
+  padding-right: 20px;
+}
+
+.view-user-btn {
+  border-radius: 5px;
+  border: 0;
+  background: #0d9130;
+  padding: 8px;
+  color: white;
+  margin: 6px 2px;
+  width: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.view-user-btn:hover {
+  background: #07631f;
+}
+.change-user-props-btn {
+  border-radius: 5px;
+  border: 0;
+  background: #1487b8;
+  padding: 8px;
+  color: white;
+  margin: 6px 2px;
+  width: auto;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.change-user-props-btn:hover {
+  background: #0c6185;
+}
+.delete-user-btn {
+  border-radius: 50%;
+  border: 0;
+  background: orangered;
+  padding: 8px;
+  color: white;
+  margin: 6px 2px;
+  width: 32px;
+  height: 32px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.delete-user-btn:hover {
+  background: red;
+}
+.buttons-container {
+  flex: 1;
+}

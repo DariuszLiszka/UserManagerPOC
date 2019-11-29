@@ -1,0 +1,31 @@
+<div class="user-properties">
+  <div id="full-name">
+    name
+    <span>{{ user.name }}</span>
+  </div>
+  <div id="email">
+    email
+    <span>{{ user.email }}</span>
+  </div>
+  <div id="phone">
+    phone number
+    <span>{{ user.phone }}</span>
+  </div>
+  <div id="address">
+    Address
+    <div class="address-properties">
+      <div id="suite">
+        <span>{{ user.address.suite }}</span>
+      </div>
+      <div id="street">
+        <span>{{ user.address.street }}</span>
+      </div>
+      <div id="city">
+        <span>{{ user.address.city }}</span>
+      </div>
+      <div id="zipcode">
+        <span>{{ user.address.zipcode }}</span>
+      </div>
+    </div>
+  </div>
+</div>

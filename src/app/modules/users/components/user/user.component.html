@@ -1,0 +1,30 @@
+<div>
+  <div class="user-container">
+    <div class="user-info">
+      <label id="user-name" for="{{ user.id }}"> {{ user.name }} </label>
+      <label id="user-email" for="{{ user.email }}">
+        {{ user.email }}
+      </label>
+    </div>
+    <div class="buttons-container">
+      <a
+        class="view-user-btn"
+        [routerLink]="['user', user.id]"
+        [state]="user"
+        id="{{ user.id }}"
+      >
+        View
+      </a>
+      <a
+        class="change-user-props-btn"
+        [routerLink]="['user/edit', user.id]"
+        [state]="user"
+        type="checkbox"
+        id="{{ user.id }}"
+      >
+        change
+      </a>
+      <button class="delete-user-btn" (click)="onDelete(user)">X</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+.add-user-form {
+  max-width: 500px;
+  margin: 32px auto;
+  border: 2px solid #8f96c4;
+  padding: 32px;
+  border-radius: 5px;
+}
+.add-user-form label {
+  display: block;
+  padding: 16px 0 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.add-user-form input {
+  display: block;
+  width: 100%;
+  border: 2px solid #2980b9;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.add-user-form textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #2980b9;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.add-user-form .buttons-area {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 5px;
+}
+.buttons-area .btn {
+  font-size: 18px;
+  border-radius: 5px;
+  border: 0;
+  padding: 8px;
+  margin: 16px 5px;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+.submit-btn {
+  background: #4e63f2;
+
+  color: white;
+}
+.submit-btn:hover {
+  background: #3545b0;
+}

@@ -1,0 +1,9 @@
+<app-show-form-btn (addUser)="addUser($event)"></app-show-form-btn>
+<div id="users-container">
+  <app-user
+    *ngFor="let user of users"
+    [user]="user"
+    (deleteUser)="deleteUser($event)"
+  >
+  </app-user>
+</div>

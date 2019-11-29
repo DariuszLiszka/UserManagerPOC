@@ -1,0 +1,26 @@
+<form class="add-user-form" (ngSubmit)="onSubmit()">
+  <label>name</label>
+  <input id="full-name" type="text" name="name" [(ngModel)]="name" />
+  <label>email</label>
+  <input id="email" type="text" name="email" [(ngModel)]="email" />
+  <label>phone number</label>
+  <div class="buttons-container">
+    <input
+      id="phone-number"
+      type="text"
+      name="phone"
+      [(ngModel)]="phone"
+    />
+    <label>address</label>
+    <textarea
+      id="address"
+      type="text"
+      name="address"
+      [(ngModel)]="address"
+    ></textarea>
+    <div class="buttons-area">
+      <input type="submit" value="submit" class=" btn submit-btn" />
+      <app-back-home-btn></app-back-home-btn>
+    </div>
+  </div>
+</form>

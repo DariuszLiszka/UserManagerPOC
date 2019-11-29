@@ -1,0 +1,6 @@
+.address-properties {
+  margin-left: 40px;
+}
+#addres .address-properties {
+  display: inline-block;
+}
