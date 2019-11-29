@@ -1,0 +1,36 @@
+.create-post-btn {
+  border-radius: 5px;
+  border: 0;
+  background: green;
+  padding: 8px;
+  color: white;
+  margin: 6px 2px;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.show-form-btn:hover {
+  background: green;
+}
+.create-post-container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+label {
+  margin-top: 10px;
+}
+#cr-post-title {
+  margin-top: 15px;
+}
+#cr-post-title input {
+  width: 50%;
+}
+#cr-post-body {
+  margin-top: 15px;
+}
+#cr-post-body input {
+  width: 100%;
+}
