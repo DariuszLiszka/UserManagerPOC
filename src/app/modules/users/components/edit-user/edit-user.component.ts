@@ -20,7 +20,7 @@ export class EditUserComponent implements OnInit {
 
   ngOnInit() {
     this.user = history.state;
-    console.log(this.user);
+   
   }
 
   onSubmit() {

@@ -1,10 +1,14 @@
 <div>
   <div class="user-container">
     <div class="user-info">
-      <label id="user-name" for="{{ user.id }}"> {{ user.name }} </label>
-      <label id="user-email" for="{{ user.email }}">
-        {{ user.email }}
-      </label>
+      <div id="user-name">
+        <label for="{{ user.id }}"> {{ user.name }} </label>
+      </div>
+      <div id="user-email">
+        <label for="{{ user.email }}">
+          {{ user.email }}
+        </label>
+      </div>
     </div>
     <div class="buttons-container">
       <a

@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 
-import { UsersRoutingModule } from './users-routing.module';
+import { UsersRoutingModule } from "./users-routing.module";
 import { UserService } from "./services/user.service";
 
 import { UsersComponent } from "./components/users/users.component";
@@ -14,8 +14,8 @@ import { ShowFormBtnComponent } from "./components/show-form-btn/show-form-btn.c
 import { UserPropertiesComponent } from "./components/user-properties/user-properties.component";
 import { EditUserComponent } from "./components/edit-user/edit-user.component";
 import { BackHomeBtnComponent } from "./components/back-home-btn/back-home-btn.component";
-
-
+import { CreatePostComponent } from "./components/create-post/create-post.component";
+import { CommentPostComponent } from "./components/comment-post/comment-post.component";
 @NgModule({
   declarations: [
     UsersComponent,
@@ -24,16 +24,11 @@ import { BackHomeBtnComponent } from "./components/back-home-btn/back-home-btn.c
     ShowFormBtnComponent,
     UserPropertiesComponent,
     EditUserComponent,
-    BackHomeBtnComponent
+    BackHomeBtnComponent,
+    CreatePostComponent,
+    CommentPostComponent
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-    FormsModule,
-    UsersRoutingModule
-  ],
-  providers: [
-    UserService
-  ]
+  imports: [CommonModule, RouterModule, FormsModule, UsersRoutingModule],
+  providers: [UserService]
 })
-export class UsersModule { }
+export class UsersModule {}
